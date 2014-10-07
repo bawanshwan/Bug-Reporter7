@@ -1,3 +1,10 @@
+ATTENTION
+=========
+Development is currently on hold. 
+This will be continued until [MetroUI](https://github.com/SniperGER/MetroUI) Developer Preview 2 has been released, alongside with an project I'm currently working on for school.
+Expect a continuation of this project sometime early November.
+Sorry if you're interested in this project. THIS PROJECT IS NOT DEAD! It will be updated to Bug Reporter⁸ soon!
+
 Bug-Reporter7
 =============
 Bug Reporter7 is a web based application to help you and your team keep your work organized by moving Bug Reporting into one centralized system.
