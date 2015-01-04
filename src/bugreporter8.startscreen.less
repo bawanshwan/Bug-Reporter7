@@ -1,0 +1,202 @@
+.popup-startscreen {
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  max-height: 800px;
+  margin: 0;
+  padding: 0;
+}
+.popup-startscreen {
+  min-width: 800px;
+  display: -webkit-flex;
+  -webkit-justify-content: flex-start;
+  -webkit-flex-direction: column;
+  max-height: 100%;
+}
+.popup-startscreen.modal-in.no-transition {
+  transition-duration: 0ms;
+  -webkit-transition-duration: 0ms;
+}
+li,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.EmphasisDisplay {
+  display: block;
+  font-size: 1.222rem;
+  font-family: HelveticaNeue-Medium, "Helvetica Neue Medium";
+  padding-bottom: 0.5em;
+}
+h1 {
+  display: none;
+}
+@-webkit-keyframes move-up {
+  from {
+    -webkit-transform: translate(0, 0) scale(1);
+  }
+  to {
+    -webkit-transform: translate(0, -80px) scale(0.9);
+  }
+}
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hero {
+  width: 100%;
+  min-height: 190px;
+  max-height: 205px;
+  text-align: center;
+  font-family: HelveticaNeue-Thin, "Helvetica Neue Thin";
+  -webkit-flex-basis: 25%;
+  -webkit-align-self: flex-end;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column;
+  padding-bottom: 35px;
+  -webkit-animation-name: move-up;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+}
+html[lang=ar] .hero,
+html[lang=ja] .hero,
+html[lang=ko] .hero,
+html[lang=th] .hero {
+  font-family: HelveticaNeue-Light;
+}
+.hero .Item {
+  padding-top: 245px;
+  -webkit-animation-name: move-up;
+  -webkit-animation-duration: 0.7s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+}
+.hero .title {
+  white-space: nowrap;
+  width: 100%;
+  font-size: 4rem;
+  -webkit-backface-visibility: hidden;
+}
+.hero .subtitle {
+  white-space: nowrap;
+  width: 100%;
+  font-size: 2.333rem;
+  color: #929292;
+  -webkit-backface-visibility: hidden;
+}
+.hero .title,
+.hero .subtitle {
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+  -webkit-animation-fill-mode: both;
+}
+.callouts {
+  -webkit-flex-basis: 75%;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  min-height: 340px;
+  max-height: 340px;
+}
+.callouts li {
+  padding: 0 10px;
+  color: #424242;
+  opacity: 0;
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-fill-mode: both;
+  -webkit-backface-visibility: hidden;
+  text-align: center;
+}
+.callouts li .Para {
+  line-height: 1.4rem;
+  margin: 0 auto;
+}
+.callouts li:nth-of-type(1) {
+  width: 321px;
+  min-width: 321px;
+  -webkit-animation-delay: 1.95s;
+}
+html[lang=ja] .callouts li:nth-of-type(1) .Para:last-child {
+  width: 290px;
+}
+html[lang=el] .callouts li:nth-of-type(1) .Para:last-child,
+html[lang=fi] .callouts li:nth-of-type(1) .Para:last-child,
+html[lang=ko] .callouts li:nth-of-type(1) .Para:last-child,
+html[lang=nl] .callouts li:nth-of-type(1) .Para:last-child {
+  width: 270px;
+}
+.callouts li:nth-of-type(1) .graphic {
+  position: relative;
+  width: 321px;
+}
+.callouts li:nth-of-type(2) {
+  width: 305px;
+  min-width: 305px;
+  -webkit-animation-delay: 2.05s;
+}
+html[lang=cs] .callouts li:nth-of-type(2) .Para:last-child,
+html[lang=fr] .callouts li:nth-of-type(2) .Para:last-child {
+  width: 270px;
+}
+.callouts li:nth-of-type(2) .graphic {
+  width: 305px;
+}
+.callouts li:nth-of-type(3) {
+  width: 321px;
+  min-width: 321px;
+  -webkit-animation-delay: 2.15s;
+}
+.callouts li:nth-of-type(3) img {
+  margin-right: 1px;
+}
+.callouts li:nth-of-type(3) .Para:last-child {
+  width: 270px;
+}
+html[lang=es-mx] .callouts li:nth-of-type(3) .Para:last-child,
+html[lang=fi] .callouts li:nth-of-type(3) .Para:last-child,
+html[lang=fr] .callouts li:nth-of-type(3) .Para:last-child,
+html[lang=ja] .callouts li:nth-of-type(3) .Para:last-child,
+html[lang=nl] .callouts li:nth-of-type(3) .Para:last-child {
+  width: 290px;
+}
+.callouts li:nth-of-type(3) .graphic {
+  width: 321px;
+}
+.callouts li .Para:last-child .inlineGraphic {
+  position: relative;
+  top: 2px;
+}
+.callouts li .graphic {
+  position: relative;
+  height: 250px;
+  text-align: center;
+}
+.link-container {
+  font-size: 1.334rem;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-delay: 2.65s;
+  -webkit-animation-fill-mode: both;
+}
+.link-container .Smaller a {
+  font-size: 1.0rem;
+}
+.link-container a {
+  color: #007aff;
+  text-decoration: none;
+}

@@ -1,0 +1,78 @@
+{
+	"apps": [
+		{
+			"title": "Bugs",
+			"subtitle": "%n Objects",
+			"author": "Janik Schmdit (Sniper_GER)",
+			"data": "de.sniperger.bugs",
+			"executable": "index.html",
+			"preinstalled": true,
+			"removable": true,
+			"iconLight": "AppIcon-Light.svg",
+			"iconDark": "AppIcon-Dark.svg",
+			"icon": "AppIcon-BugsOpen.png"
+		},
+		{
+			"title": "Update",
+			"subtitle": "No updates",
+			"author": "Janik Schmdit (Sniper_GER)",
+			"data": "de.sniperger.update",
+			"executable": "index.html",
+			"preinstalled": true,
+			"removable": true,
+			"notifications": true,
+			"iconLight": "AppIcon-Light.svg",
+			"iconDark": "AppIcon-Dark.svg",
+			"icon": "AppIcon-Update.png"
+		},
+		{
+			"title": "User CP",
+			"subtitle": "",
+			"author": "Janik Schmdit (Sniper_GER)",
+			"data": "de.sniperger.usercp",
+			"executable": "index.html",
+			"preinstalled": true,
+			"removable": true,
+			"iconLight": "AppIcon-Light.svg",
+			"iconDark": "AppIcon-Dark.svg",
+			"icon": "AppIcon-UserCP.png"
+		},
+		{
+			"title": "Tips",
+			"subtitle": "",
+			"author": "Janik Schmdit (Sniper_GER)",
+			"data": "de.sniperger.tips",
+			"executable": "index.html",
+			"preinstalled": true,
+			"removable": true,
+			"notifications": true,
+			"iconLight": "AppIcon-Light.svg",
+			"iconDark": "AppIcon-Dark.svg",
+			"icon": "AppIcon-Tips.png"
+		},
+		{
+			"title": "Setup",
+			"subtitle": "",
+			"author": "Janik Schmdit (Sniper_GER)",
+			"data": "de.sniperger.setup",
+			"executable": "index.html",
+			"preinstalled": true,
+			"removable": false,
+			"iconLight": "AppIcon-Light.svg",
+			"iconDark": "AppIcon-Dark.svg",
+			"icon": "AppIcon-Assistant.png"
+		},
+		{
+			"title": "Settings",
+			"subtitle": "",
+			"author": "Janik Schmdit (Sniper_GER)",
+			"data": "de.sniperger.preferences",
+			"executable": "index.html",
+			"preinstalled": true,
+			"removable": false,
+			"iconLight": "AppIcon-Light.svg",
+			"iconDark": "AppIcon-Dark.svg",
+			"icon": "AppIcon-Preferences.png"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+<div class="navbar app">
+	<div class="navbar-inner app">
+		<div class="center sliding" data-i18n="UPDATE">Software Update</div>
+	</div>
+</div>
+<div class="pages">
+	<div data-page="virtual-list" class="page app navbar-through toolbar-through">
+		<div class="page-content">
+			<div class="apps-wrapper phone">
+				<div class="app-outer">
+					<a class="app external" href="javascript:br8.addUpdateScreen()">
+						<div class="app-inner">
+<!--
+							<img class="app-icon app-icon-light" src="apps/{{path}}/{{iconLight}}" />
+							<img class="app-icon app-icon-dark" src="apps/{{path}}/{{iconDark}}" />
+-->
+						</div>
+						<p class="app-title">Update</p>
+					</a>
+				</div>
+				<div class="app-outer">
+					<a class="app external" href="javascript:br8.addUpdateScreen($(this), true)">
+						<div class="app-inner">
+<!--
+							<img class="app-icon app-icon-light" src="apps/{{path}}/{{iconLight}}" />
+							<img class="app-icon app-icon-dark" src="apps/{{path}}/{{iconDark}}" />
+-->
+						</div>
+						<p class="app-title">Restore</p>
+					</a>
+				</div>
+			</div>
+			<div class="content-block-title">Current Update</div>
+			<div class="list-block tablet-inset virtual-list1"></div>
+			<div class="content-block-title">Previous Updates</div>
+			<div class="list-block tablet-inset virtual-list2"></div>
+		</div>
+	</div>
+</div>

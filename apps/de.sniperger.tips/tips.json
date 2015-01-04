@@ -1,0 +1,49 @@
+{
+	"tips": [
+		{
+			"title": "Everything is new.<br>And better!",
+			"text": "Bug Reporter&#8312; has been built from the ground up to serve the best features made even better. With Tips, you are going to learn everything that has been added to Bug Reporter&#8312;.",
+			"image": {
+				"ipad-landscape": "tips1-ipad-landscape.png",
+				"ipad-portrait": "null",
+				"iphone":"tips1-iphone.png"
+			}
+		},
+		{
+			"title": "The new Home Screen.<br>Including apps.",
+			"text": "The new Home Screen lets you see apps. Apps that you can install. In an app. That's why it's called the “AppCeption View”. You can even remove apps you don't need.",
+			"image": {
+				"ipad-landscape": "tips2-ipad-landscape.png",
+				"ipad-portrait": "null",
+				"iphone":"tips2-iphone.png"
+			}
+		},
+		{
+			"title": "Quickly manage your bugs.",
+			"text": "Swipe a bug to the left to see various options. If there is anything that has changed, tap on More to edit the bug's details. You can also archive or delete it.",
+			"image": {
+				"ipad-landscape": "null",
+				"ipad-portrait": "null",
+				"iphone":"tips3-iphone.png"
+			}
+		},
+		{
+			"title": "Software Update.<br>Now restoring.",
+			"text": "Bug Reporter&#8312; makes Software Update even more useful. It is now able to restore everything to factory settings. So, if you're running into any issues, open “Software Update” and hit “Restore”.",
+			"image": {
+				"ipad-landscape": "null",
+				"ipad-portrait": "null",
+				"iphone":"tips4-iphone.png"
+			}
+		},
+		{
+			"title": "Now featuring:<br>Your Language!",
+			"text": "Localizations finally found their way into Bug Reporter&#8312;. It automatically sets it to your device language, but you can always change it through Settings &gt; Language.",
+			"image": {
+				"ipad-landscape": "null",
+				"ipad-portrait": "null",
+				"iphone":"tips5-iphone.png"
+			}
+		}
+	]
+}

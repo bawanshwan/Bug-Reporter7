@@ -1,0 +1,32 @@
+<div class="navbar">
+	<div class="navbar-inner">
+		<div class="left sliding"><a href="#" class="back link"><i class="icon icon-back-blue icon-back"></i><span>Bugs</span></a></div>
+		<div class="center sliding" data-i18n="OPEN_BUGS">Open Bugs</div>
+	</div>
+</div>
+<div class="pages">
+	<div data-page="bugs-open" class="page navbar-through">
+		<div class="page-content bug-no-bg bug-bg" id="bugs-open-content">
+			<div class="list-block" data-bug="{{internalID}}">
+				<ul>
+					<li class="swipeout">
+						<div class="swipeout-content" style="font-size: 14px; padding: 15px;">
+								<p class="title" style="margin: 0 5px 0 0; overflow: hidden; text-overflow: ellipsis; font-weight: bold; float: left;">{{title}}</p>
+								<p class="date" style="margin: 0; float: right; color: #23b2fd">Today, 8:15PM</p>
+								<p class="issueID" style="clear: both; margin: 0; float: left;">{{id}}</p>
+								<p class="category" style="margin: 0; float: right;">Security</p>
+								<p class="description" style="clear: both; margin: 5px 0 0 0; max-height: 32px; text-overflow: ellipsis; overflow: hidden;">{{description}}</p>
+						</div>
+						<div class="swipeout-actions-right">
+								<a href="#" class="action0 swipeout-close gray">More</a>
+								<a href="#" class="action1 swipeout-delete orange" style="background-color: #ff8810;">Archive</a>
+								<a href="" class="action2 swipeout-delete red">
+									<div>Close</div>
+								</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

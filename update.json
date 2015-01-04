@@ -1,13 +1,22 @@
 {
-	"en": {
-		"updates": [
+	"updates": {
+		"current": {
+			"version": "2.0",
+			"build": "12A365",
+			"updateType": "production",
+			"description": "This update contains a whole new design and a range of new features.",
+			"content": "This update contains a whole new design and a range of new features, including the following:<br><ul style=\"padding-left: 26px\"><li>New design</li><ul style=\"padding-left: 26px\"><li>App Screen shows apps as icons instead of a list</li><li>Choose between two styles: iOS Home Screen or iCloud Drive</li></ul><li>Apps</li><ul style=\"padding-left: 26px\"><li>App Icons are generated through a centralized JSON file, enabling third-party apps</li><li>Icons can be rearranged, added or deleted</li><li>Apps can receive notifications (including badges)<li>Almost every app has been completely rewritten</li><li>Home Button always navigates back to Home Screen</li></ul><li>Start Screen</li><ul style=\"padding-left: 26px\"><li>Start Screen displays a short overview over the functionality in Bug Reporter\u2078</li></ul><li>Setup Assistant</li><ul style=\"padding-left: 26px\"><li>Setup Assistant helps first-time users set up Bug Reporter\u2078 to their needs</li><li>Assistant automatically shows up after successfully restoring Bug Reporter\u2078</li></ul><li>Tips</li><ul style=\"padding-left: 26px\"><li>Tips finally has content again!</li><li>Content is generated from a centralized JSON file</li><li>Preliminary compatibility for iPad desktop</li></ul><li>Software Update</li><ul style=\"padding-left: 26px\"><li>Software Update now also restores Bug Reporter\u2078 back to factory settings</li><li>Previous updates are now displayed in a list</li></ul><li>User Control Panel</li><ul style=\"padding-left: 26px\"><li>MySQL Database users supported out-of-the-box</li></ul><li>Settings</li><ul style=\"padding-left: 26px\"><li>New settings have been added: Language, Background</li></ul><li>Localization</li><ul style=\"padding-left: 26px\"><li>Bug Reporter\u2078 supports English and German localization</li><li>New localizations can be easily added</li></ul><li>Core</li><ul style=\"padding-left: 26px\"><li>JavaScript Core has been completely rewritten (again)</li><li>Backward compatibility to Bugs filed in Bug Reporter\u2077</li><li>New API methods (details can be found <a href=\"#\" class=\"external\">here</a>)</li></ul></ul>",
+			"instructions": "This update is recommended to all users of Bug Reporter\u2077 and Bug Reporter\u2078 Beta."
+
+		},
+		"previous": [
 			{
 				"version": "1.0.3",
 				"build": "1832",
 				"updateType": "production",
 				"description": "This update contains bug fixes and improvements.",
-				"content": "<ul style=\"padding-left: 26px\"> <li>Modern UI <ul style=\"padding-left: 25px\"> <li>Modern UI for an iOS 8-like look and feel</li> <li>Swipe To Delete Bugs</li> </ul> <li>Tips <ul style=\"padding-left: 25px\"> <li>iPad Support for Tips</li> <li>Various improvements</li> <li>NOTE: Content will be delivered in Version 1.0.3 Update 1</li> </ul> <li>Timed Theme <ul style=\"padding-left: 25px\"> <li>Schedule Options for Timed Theme</li> </ul> </li> <li>Settings <ul style=\"padding-left: 25px\"> <li>About Panel for detailed information about Bug Reporter⁷</li> </ul> </li> <li>Core <ul style=\"padding-left: 25px\"> <li>Update to Framework7 Release 0.9.5</li> <li>Completely rewritten JavaScript components</li> <li>Stylesheets are now built upon LESS architecture</li> </ul> </li> </ul>",
-				"instructions": "This update is recommended to all users of Bug Reporter⁷."
+				"content": "<ul style=\"padding-left: 26px\"> <li>Modern UI <ul style=\"padding-left: 25px\"> <li>Modern UI for an iOS 8-like look and feel</li> <li>Swipe To Delete Bugs</li> </ul> <li>Tips <ul style=\"padding-left: 25px\"> <li>iPad Support for Tips</li> <li>Various improvements</li> <li>NOTE: Content will be delivered in Version 1.0.3 Update 1</li> </ul> <li>Timed Theme <ul style=\"padding-left: 25px\"> <li>Schedule Options for Timed Theme</li> </ul> </li> <li>Settings <ul style=\"padding-left: 25px\"> <li>About Panel for detailed information about Bug Reporter\u2077</li> </ul> </li> <li>Core <ul style=\"padding-left: 25px\"> <li>Update to Framework7 Release 0.9.5</li> <li>Completely rewritten JavaScript components</li> <li>Stylesheets are now built upon LESS architecture</li> </ul> </li> </ul>",
+				"instructions": "This update is recommended to all users of Bug Reporter\u2077."
 			},
 			{
 				"version": "1.0.2",
@@ -15,7 +24,7 @@
 				"updateType": "production",
 				"description": "This update contains bug fixes and improvements.",
 				"content": "• Preparation for Localization Update (1.0.3)<br>• Preparation for Framework7 Update (0.9.5)<br>• Added OTA Software Update<br>• Added update progress screen<br>• Added section to view previously installed updates<br>• Added launch images for 3.5\" and 4\" devices<br>• Added schedule settings for Timed Theme<br>• Fixed the background image in Bugs view (image is temporary, will be replaced soon)<br>• Restructured HTML File layout and Settings menu",
-				"instructions": "This update is recommended to all users of Bug Reporter⁷."
+				"instructions": "This update is recommended to all users of Bug Reporter\u2077."
 			},
 			{
 				"version": "1.0.1",
@@ -23,17 +32,16 @@
 				"updateType": "production",
 				"description": "This update contains bug fixes and improvements.",
 				"content": "• Fixed Deadlock after completing \"Tips\" section<br>• Restructured Bug information layout (Dates FTW!)<br>• Removed unnecessary code lines (still doesn't reduce size that much)<br>• Added option to remove all website data<br>• Background Image in Bug view (Open, Closed and Archived; only visible when no bugs are loaded",
-				"instructions": "This update is recommended to all users of Bug Reporter⁷."
+				"instructions": "This update is recommended to all users of Bug Reporter\u2077."
 			},
 			{
 				"version": "1.0",
 				"build": "2213",
 				"updateType": "factory",
-				"description": "Initial Release of Bug Reporter⁷.",
-				"content": "This is the initial release of Bug Reporter⁷ that comes with every fresh installation.",
-				"instructions": "This update is recommended to all users of Bug Reporter⁷."
+				"description": "Initial Release of Bug Reporter\u2077.",
+				"content": "This is the initial release of Bug Reporter\u2077 that comes with every fresh installation.",
+				"instructions": "This update is recommended to all users of Bug Reporter\u2077."
 			}
 		]
-	},
-	"de": {}
+	}
 }

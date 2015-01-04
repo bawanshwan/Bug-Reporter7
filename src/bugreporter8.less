@@ -1,0 +1,200 @@
+body:not(.app-open) {
+	div.statusbar-overlay {
+		display: none;
+	}
+// 	div.pages
+}
+.page-content {
+	 margin-bottom:1px;
+}
+.page {
+	 overflow: auto;
+	 -webkit-overflow-scrolling: touch;
+	 &:not([data-page="index"]) {
+		 .page-content {
+			 padding-top: 64px;
+		 }
+	 }
+}
+html.with-statusbar-overlay {
+	body {
+		padding-top: 0;
+	}
+	.navbar {
+		height: 66px;
+		
+		.navbar-inner {
+			height: calc(~"100% - 20px");
+			margin-top: 20px;
+		}
+	}
+}
+
+div.statusbar-overlay {
+	background-color: #fff;
+}
+@media all and (min-width: 768px) {
+	.popup:not(.tablet-fullscreen), .popup:not(.tablet-fullscreen) .view, .popup:not(.tablet-fullscreen) .pages, .popup:not(.tablet-fullscreen) .page, .popup:not(.tablet-fullscreen) .page-content {
+		border-radius: 12px;
+	}
+	.popup:not(.tablet-fullscreen) .navbar {
+		border-top-left-radius: 12px;
+		border-top-right-radius: 12px;
+	}
+}
+.list-block {
+	.swipeout.deleting {
+		-webkit-transform: translate3d(0,0,0);
+	}
+	.swipeout-actions { overflow: hidden; }
+	.swipeout-actions-inner {
+		a, a div {
+			min-width: 80px;
+			text-align: center;
+			padding: 0;
+			display: block;
+			box-align: stretch;
+			align-items: stretch;
+			-webkit-box-align: stretch;
+			-webkit-align-items: stretch;
+			-webkit-transition: -webkit-transform 300ms ease;
+		}
+		a div { -webkit-transition: -webkit-transform 300ms ease !important; }
+		a.no-transition {
+			transition: none;
+			-webkit-transition: none;
+		}
+		a.swipeout-open { -webkit-transform: translate3d(0,0,0) }
+		a::after, a div::after {
+			content: " ";
+			height: 100%;
+			width: 500%;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			z-index: -1;
+		}
+		a.red::after, a.red div, a.red div::after { background-color: #ff3b30; }
+		a.orange::after, a.orange div, a.orange div::after { background-color: #ff8810; }
+		a.gray::after, a.gray div, a.gray div::after { background-color: #c7c7cc; }
+		a.blue::after, a.blue div, a.blue div::after { background-color: #007aff; }
+		a.transition-to-open {
+			-webkit-transition: -webkit-transform 300ms ease;
+			-webkit-transform: translate3d(0,0,0);
+		}
+	}
+}
+.popup-startscreen {
+	-webkit-transform: translate3d(0,0,0) scale(0.5) !important;
+	-webkit-transition: opacity 400ms, -webkit-transform 400ms ease-in;
+	opacity: 0;
+	
+	&.modal-in {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0) scale(1) !important;
+	}
+	.page {
+		background-color: #fff;
+	}
+	a.link {
+		transition: opacity 300ms ease-out;
+		-moz-transition: opacity 300ms ease-out;
+		-webkit-transition: opacity 300ms ease-out;
+		
+		&:active {
+			transition: none;
+			-moz-transition: none;
+			-webkit-transition: none;
+			opacity: 0.3;
+		}
+	}
+}
+div.portrait-notice {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -160px;
+	margin-top: -180px;
+	width: 320px;
+	background-image: url(../img/rotate-homescreen.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 150px 230px;
+	padding-top: 230px;
+	display: none;
+	
+	p {
+		text-align: center;
+		font-size: 23pt;
+		color: #fff;
+		font-weight: 300;
+	}
+}
+
+@-webkit-keyframes gear-rotate {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+div.update-view {
+	z-index: 10000;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 72px;
+		height: 72px;
+		margin-top: -37px;
+		margin-left: -37px;
+		
+		&.inner-gear {
+			-webkit-animation: gear-rotate 2s infinite;
+			-webkit-animation-timing-function: linear;
+		}
+		&.outer-gear, &.outer-gear-shadow {
+			-webkit-animation: gear-rotate 4s infinite;
+			-webkit-animation-timing-function: linear;
+		}
+	}
+	div.progress-bar {
+		position: relative;
+		top: 50%;
+		margin: 0px auto;
+		margin-top: 85px;
+		width: 200px;
+		height: 4px;
+		background-color: rgba(255,255,255,0.5);
+		border-radius: 5px;
+		
+		div.inner-progress {
+			height: 100%;
+			width: 0%;
+			background-color: #fff;
+			-webkit-transition: width .5s linear;
+			border-radius: 5px;
+		}
+	}
+	p.restore-title {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		font-size: 22pt;
+		font-weight: 300;
+		color: #fff;
+		text-align: center;
+	}
+}
+@import "bugreporter8.startscreen.less";
+@import "bugreporter8.themes.less";
+@import "bugreporter8.apps.less";
