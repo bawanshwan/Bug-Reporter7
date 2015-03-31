@@ -1,9 +1,8 @@
 ATTENTION
 =========
-Development is currently on hold. 
-This will be continued until [MetroUI](https://github.com/SniperGER/MetroUI) Developer Preview 2 has been released, alongside with an project I'm currently working on for school.
-Expect a continuation of this project sometime early November.
-Sorry if you're interested in this project. THIS PROJECT IS NOT DEAD! It will be updated to Bug Reporter⁸ soon!
+Development has continued!
+
+Bug Reporter7 will be released soon as "Bug Watch", but you can check the core of it at [WatchUI](http://github.com/SniperGER/Framework7-WatchUI)!
 
 Bug-Reporter7
 =============
